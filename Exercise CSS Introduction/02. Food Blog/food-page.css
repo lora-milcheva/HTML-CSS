@@ -1,0 +1,85 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("images/header.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 70px;
+}
+
+header > h1 {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 900;
+}
+
+main {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+.content > article {
+    margin-bottom: 50px;
+}
+
+.content > article > h1 {
+    margin-bottom: 10px;
+}
+
+.content > article > p.date {
+    padding: 0 0 10px 0;
+}
+
+.content > article > p {
+    font-size: 16px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.content > article > img {
+    width: 100%;
+}
+
+.content > article > button {
+    background: none;
+    color: #ec5353;
+    border: 1px solid #ec5353;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+.content > article > button:hover {
+    background: #ec5353;
+    color: #fff;
+    cursor: pointer;
+}
+
+aside {
+    width: 25%;
+    float: left;
+    padding: 0 0 0 20px;
+}
+
+aside > img {
+    width: 100%;
+}
+
+aside > p {
+    margin: 5px 0 25px 0;
+}
+

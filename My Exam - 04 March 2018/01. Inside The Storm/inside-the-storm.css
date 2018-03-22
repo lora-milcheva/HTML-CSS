@@ -1,0 +1,98 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oxygen Regular'), local('Oxygen-Regular'), url(https://fonts.gstatic.com/s/oxygen/v7/2sDfZG1Wl4LcnbuKgE0mV0Q.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oxygen Regular'), local('Oxygen-Regular'), url(https://fonts.gstatic.com/s/oxygen/v7/2sDfZG1Wl4LcnbuKjk0m.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Oxygen, sans-serif;
+}
+
+.ivo-in-trouble {
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D3D3D3;
+    padding: 8px;
+}
+
+.ivo-in-trouble > div {
+    flex-basis: 300px;
+    flex-grow: 1;
+    height: 350px;
+}
+
+.image-box {
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+}
+.text-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.text-box h1 {
+    margin-top: 10%;
+    font-size: 3.5em;
+}
+
+.urgent {
+    margin-top: 50px;
+    padding: 5px 0;
+    font-size: 2em;
+    border-top: 1px dotted #ff0632;
+    border-bottom: 1px dotted #ff0632;
+}
+.text-box .simple-text {
+    text-align: left;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.emergency {
+    color: #ff0632;
+    font-size: 3em;
+    margin-top: 38%;
+}
+
+.the-end {
+    color: #0000ff;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+
+.help-btn {
+    margin-top: 30%;
+    padding: 20px 25px;
+    background-color: #F4A361;
+    color: #fff;
+    font-size: 2em;
+    border: outset;
+    outline: none;
+}

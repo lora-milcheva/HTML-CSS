@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: Roboto, sans-serif;
+    color: #1E1917;
+    font-size: 16px;
+    padding: 50px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+p {
+    margin: .5em 0;
+}
+
+a {
+    color: #136F63;
+    font-size: 15px;
+}
+
+header {
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    -webkit-box-shadow: inset -10px 10px 0px 0px rgba(50, 78, 91, 1);
+    -moz-box-shadow: inset -10px 10px 0px 0px rgba(50, 78, 91, 1);
+    box-shadow: inset -10px 10px 0px 0px rgba(50, 78, 91, 1);
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-control {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: inset 7px 7px 0px 0px rgba(50, 78, 91, 1);
+    -moz-box-shadow: inset 7px 7px 0px 0px rgba(50, 78, 91, 1);
+    box-shadow: inset 7px 7px 0px 0px rgba(50, 78, 91, 1);
+}
+
+.checkbox-form-control {
+    margin-top: 15px;
+    display: block;
+}
+
+.checkbox-form-control input {
+    margin-right: 15px;
+}
+
+.styling-box {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    -webkit-box-shadow: inset 7px 7px 0px 0px rgba(50, 78, 91, 1);
+    -moz-box-shadow: inset 7px 7px 0px 0px rgba(50, 78, 91, 1);
+    box-shadow: inset 7px 7px 0px 0px rgba(50, 78, 91, 1);
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.radio-btn-label {
+
+}
+
+.col-2 {
+    width: 49.5%;
+    display: inline-block;
+}
+
+button {
+    width: 30%;
+    margin: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button[type="submit"] {
+    -webkit-box-shadow: inset -7px -7px 0px 0px rgba(50,78,91,1);
+    -moz-box-shadow: inset -7px -7px 0px 0px rgba(50,78,91,1);
+    box-shadow: inset -7px -7px 0px 0px rgba(50,78,91,1);
+}
+
+button[type="reset"] {
+    -webkit-box-shadow: inset -7px -7px 0px 0px rgb(255, 119, 57);
+    -moz-box-shadow: inset -7px -7px 0px 0px rgb(255, 119, 57);
+    box-shadow: inset -7px -7px 0px 0px rgb(255, 119, 57);
+}
+
+.center {
+    text-align: center;
+}

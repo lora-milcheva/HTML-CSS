@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="edit-user-form.css">
+</head>
+<body>
+<header class="headline">
+    <h1>edit user</h1>
+</header>
+<main>
+    <form>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="text" id="phone" name="phone" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <p>User type</p>
+            <div class="col-2 form-group">
+                <input type="radio" id="broadband" name="user-type" value="broadband" />
+                <label for="broadband" class="radio-btn-label">Broadband</label>
+            </div>
+            <div class="col-2 form-group">
+                <input type="radio" id="radio" name="user-type" value="radio"/>
+                <label for="radio" class="radio-btn-label">Radio</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="form-control"/>
+        </div>
+        <div class="form-group styling-box">
+            <p>Group</p>
+            <label for="all-groups" class="checkbox-form-control">
+                <input type="checkbox" id="all-groups" />All Groups
+            </label>
+            <label for="group-1" class="checkbox-form-control">
+                <input type="checkbox" id="group-1" />Group 1
+            </label>
+            <label for="group-2" class="checkbox-form-control">
+                <input type="checkbox" id="group-2" />Group 2
+            </label>
+            <label for="group-3" class="checkbox-form-control">
+                <input type="checkbox" id="group-3" />Group 3
+            </label>
+            <label for="group-4" class="checkbox-form-control">
+                <input type="checkbox" id="group-4" />Group 4
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Contacts</p>
+            <a href="#">See Contacts List</a>
+        </div>
+        <div class="form-group center">
+            <button type="reset">Cancel</button>
+            <button type="submit">Save</button>
+        </div>
+    </form>
+</main>
+
+</body>
+</html>

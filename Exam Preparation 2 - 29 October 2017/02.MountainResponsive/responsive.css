@@ -1,0 +1,104 @@
+@media screen and (max-width: 479px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .about-us,
+    .best-place,
+    .why-us,
+    .team-presenting {
+        padding: 20px;
+    }
+
+    .headings, #second-heading, .headings:last-of-type {
+        font-size: 1.3em;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+
+    hr {
+        width: 15%;
+    }
+
+    /* ----- Navigation ----- */
+
+    body .menu {
+        padding-top: 25px;
+    }
+    .menu span {
+        font-weight: bold;
+        margin-left: 20px;
+        letter-spacing: 2px;
+        font-family: Montserrat, sans-serif;
+    }
+
+    .menu ul.nav-options {
+        display: none;
+    }
+
+    .toggle-nav {
+        display: inline-block;
+        border: none;
+        background: none;
+        font-size: 1.2em;
+    }
+
+    /* ----- Header ----- */
+    .about-us {
+        padding: 20px;
+    }
+
+    .about-us h1 {
+        font-size: 1.5em;
+        margin-top: 30px;
+    }
+
+    .about-us p {
+        padding-top: 0;
+        width: 100%;
+        font-size: 1em;
+    }
+
+    /* ----- Best Place ----- */
+    .best-place {
+        height: auto;
+    }
+
+    .views {
+        flex-direction: column;
+    }
+
+    .views img {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    /* ----- Why Us ----- */
+    .why-us {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .why-us article {
+        width: 100%;
+    }
+
+    .text-container h4 {
+        font-size: .9em;
+    }
+
+    /* ----- Our Team ----- */
+    .our-team {
+        flex-direction: column;
+    }
+
+    .our-team article {
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+}

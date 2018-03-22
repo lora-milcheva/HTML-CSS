@@ -1,0 +1,325 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #3c3f49;
+}
+p {
+    margin: 1.5em 0;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+.clear {
+    clear: both;
+}
+
+
+/* ----- Header ----- */
+header {
+    color: #fff;
+    /*padding-top: 15px;*/
+}
+header nav, header nav p {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+header .brand {
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+header nav .brand {
+    float: left;
+}
+header nav ul {
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 35px 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: #fa692e;
+}
+header .header-banner {
+    background: linear-gradient(rgba(60, 63, 73, 0.9), rgba(60, 63, 73, 0.9)), url("img/header-bg.png") no-repeat center;
+}
+header .header-banner header{
+    display: inline-block;
+    margin: 200px 25% 60px 25%;
+    padding: 30px;
+}
+header .header-banner header h1 {
+    font-size: 26px;
+    font-weight: 300;
+    float: left;
+    width: 80%;
+}
+header .header-banner header .icon {
+    float: right;
+}
+header .header-banner header .icon:hover {
+    color: #fa692e;
+    cursor: pointer;
+}
+header .teasers {
+    clear: both;
+    text-align: center;
+}
+header .teasers article {
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+    text-align: left;
+    padding: 20px 20px 100px 20px;
+    border-bottom: 10px solid transparent;
+}
+header .teasers article:hover {
+    border-bottom: 10px solid #fa692e;
+    cursor: pointer;
+}
+header .teasers p {
+    margin-top: 60px;
+}
+
+
+/* ----- About Section ----- */
+.about div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.about .quote {
+    width: 35%;
+    text-align: right;
+    padding: 30px 30px 30px 10%;
+}
+.about .quote h2 {
+    font-size: 26px;
+    font-weight: 900;
+}
+.about .quote .author {
+    margin-top: 35px;
+    text-transform: capitalize;
+}
+.about .text {
+    width: 30%;
+    padding: 30px;
+}
+.about h3 {
+    margin: 1.5em 0;
+    font-size: 18px;
+    font-weight: 900;
+}
+.about .image {
+    position: relative;
+    padding: 70px 30px;
+    width: 29%;
+}
+.about .image img {
+    width: 100%;
+}
+.about .image::after {
+    background-color: #fa692e;
+    opacity: .8;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 110%;
+    height: 96%;
+    z-index: 1;
+}
+
+
+/* ----- Schedule Section ----- */
+.schedule {
+    background-color: #3c3f49;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+.schedule .header {
+    width: 70%;
+    margin: auto;
+}
+.schedule h2 {
+    text-align: left;
+    width: 60%;
+    margin-bottom: 60px;
+}
+.schedule ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 70%;
+    margin: auto;
+    list-style-type: none;
+    text-align: left;
+}
+.schedule .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fa692e;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.schedule .time {
+    font-weight: 900;
+    margin-right: 20px;
+}
+.schedule p {
+    text-transform: capitalize;
+}
+
+
+/* ----- Speakers Section ----- */
+.speakers {
+    padding: 60px;
+    text-align: center;
+}
+.speakers .header {
+    width: 70%;
+    margin: auto;
+}
+.speakers .header h2 {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 50%;
+    vertical-align: middle;
+}
+.speakers .about-speakers {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12px;
+}
+.speakers .articles {
+    width: 70%;
+    margin: auto;
+}
+.speakers article {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 23%;
+    margin: 15px 15px 0 0;
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+}
+.speakers img {
+    width: 100%;
+}
+.speakers .speaker-info {
+    padding: 15px 25px;
+}
+.speakers .speaker-info .speaker-name {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 16px;
+}
+.speakers .speaker-info i {
+    margin-left: 8px;
+}
+.speakers .speaker-info i:hover {
+    color: #fa692e;
+    cursor: pointer;
+}
+.speakers .speaker-info .speaker-job {
+    text-transform: uppercase;
+    color: #fa692e;
+    margin-bottom: 0;
+}
+
+
+/* ----- News Section ----- */
+.news {
+    padding: 60px;
+    text-align: center;
+    background-color: #3c3f49;
+    color: #fff;
+}
+.news .info-box {
+    width: 70%;
+    margin: auto;
+    border: 3px solid #fff;
+    padding: 70px 100px;
+}
+.news .info-box h3 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.news form input {
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fa692e;
+    color: #fff;
+    font-size: 18px;
+}
+.news form input:focus {
+    outline: none;
+}
+.news form input::placeholder {
+    color: #fa692e;
+}
+.news form button {
+     padding: 10px 25px;
+     background-color: #fa692e;
+     border: 2px solid #fa692e;
+     border-radius: 25px;
+     color: #fff;
+     text-transform: uppercase;
+     margin: 5px 20px;
+ }
+.news form button:hover {
+    background-color: #3c3f49;
+    cursor: pointer;
+    transition: all .2s;
+    color: #fa692e;
+}
+
+
+/* ----- Footer ----- */
+footer {
+    background-color: #29282E;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+footer p {
+    display: inline-block;
+    /*vertical-align: bottom;*/
+}
+footer .company {
+    float: left;
+    height: inherit;
+}
+footer .reserved {
+    float: right;
+    width: 15%;
+    height: inherit;
+}
+

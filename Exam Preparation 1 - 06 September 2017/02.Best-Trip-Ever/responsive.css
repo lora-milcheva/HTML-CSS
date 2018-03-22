@@ -1,0 +1,69 @@
+@media (max-width: 480px) {
+
+    /*All Sections Headlines (h2) */
+    .introduction-title,
+    .travel-title,
+    .benefits-title{
+        font-size: 2.6em;
+    }
+
+    /*All Sections Subtitles */
+    .introduction-subtitle,
+    .travel-subtitle,
+    .service-info{
+        max-width: 90%;
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+
+
+    /*Header*/
+    .header-wrapper {
+        background-color: #212121;
+        text-align: center;
+    }
+
+    .top-button {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 2.6em;
+    }
+
+    .header-subtitle {
+        display: none;
+    }
+
+
+    /*Why Us Secction*/
+    .service-title {
+        font-size: 1.6em;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .service-container {
+        max-width: 100%;
+        margin: 20px;
+        display: inline-block;
+    }
+
+    /*Travel Section*/
+    .travel-title-container {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-image-container {
+        margin-bottom: 20px;
+    }
+
+}

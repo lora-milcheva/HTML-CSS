@@ -1,0 +1,129 @@
+@media (max-width: 999px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .content-wrap {
+        flex-wrap: wrap;
+    }
+
+    .content-wrap.two-col .col {
+        flex-basis: 100%;
+    }
+
+    .main-foot .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .main-foot address, .main-foot nav {
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 699px) {
+    * {
+        text-align: center
+    }
+
+    .hero-head {
+        background: #171720;
+        display: flex;
+        height: inherit;
+        min-height: inherit;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .main-head {
+        position: relative;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav-trigger {
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+        right: 15px;
+    }
+
+    .main-nav-trigger:hover~.main-nav {
+        display: block;
+    }
+
+    .hero-head .goal {
+        max-width: inherit;
+    }
+
+    .hero-head h1 {
+        float: none;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 0 0 40px 0;
+    }
+
+    /*Section 1*/
+    .content-wrap {
+        margin: 0;
+        padding: 30px 0 50px 0;
+    }
+
+    .bordered {
+        padding-bottom: 0;
+    }
+
+    .content-wrap h3 {
+        font-size: 1.8rem;
+        color: #37282b;
+        font-family: 'PT Serif', serif;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }
+
+    .content-wrap.two-col .col {
+        margin-right: 0;
+    }
+
+    .module-text {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    /*Section 2*/
+    .sponsorship, .membership-type {
+        padding-bottom: 60px;
+    }
+
+    .button-list {
+        margin: 40px 0 0 0;
+    }
+
+    .button-list li {
+        width: 100%;
+    }
+
+    .large-text-link {
+        font-size: 1rem;
+    }
+
+    /*Footer*/
+    .main-foot address, .main-foot nav {
+        flex-basis: 100%;
+    }
+
+    .main-foot address, .main-foot nav {
+        font-size: inherit;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .main-foot .bottom .copyright {
+        float: none;
+    }
+}

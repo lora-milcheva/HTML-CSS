@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+<main>
+    <section class="header">
+        <h1>Room Reservation</h1>
+    </section>
+
+    <section class="info">
+        <div class="info-text">
+            <h2>Basic Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                nec commodo.
+            </p>
+        </div>
+        <div class="search">
+            <form class="search-form">
+                <label for="search-input"><h3>Search</h3></label>
+                <input type="text" id="search-input"/>
+                <button id="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="book-form">
+        <form>
+            <fieldset class="personal-details">
+                <legend>Personal Details</legend>
+                <input type="text" name="first-name" placeholder="First name"/>
+                <input type="text" name="last-name" placeholder="Last name"/>
+                <input type="email" name="last-name" placeholder="Enter email"/>
+            </fieldset>
+
+            <fieldset class="reservation-details">
+                <legend>Request a reservation</legend>
+                <div class="form-control select-room">
+                    <label for="select-room">Select a room</label>
+                    <select id="select-room" name="select-room">
+                        <option>Room 1</option>
+                        <option>Room 2</option>
+                        <option>Room 3</option>
+                        <option>Room 4</option>
+                    </select>
+                </div>
+                <div class="form-control number-of-rooms">
+                    <label for="number-of-rooms">Number of rooms</label>
+                    <input type="text" name="number-of-rooms" id="number-of-rooms" value="1">
+                </div>
+                <div class="form-control check-in">
+                    <label for="check-in">Check-In:</label>
+                    <input type="date" name="check-in" id="check-in">
+                </div>
+                <div class="form-control check-out">
+                    <label for="check-out">Check-Out:</label>
+                    <input type="date" name="check-out" id="check-out">
+                </div>
+            </fieldset>
+            <button class="submit-form-btn" type="submit">book now</button>
+        </form>
+
+    </section>
+</main>
+
+
+</body>
+</html>

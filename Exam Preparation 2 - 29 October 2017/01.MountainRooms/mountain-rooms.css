@@ -1,0 +1,69 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+p {
+    color: #989898;
+}
+
+.room-offers {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.room-offers h1 {
+    color: #32323F;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rooms-available {
+    margin-top: 80px;
+    display: flex;
+}
+
+.room-box {
+    margin: 20px;
+}
+
+.room-box img {
+    width: 100%;
+}
+
+.room-type {
+    text-transform: uppercase;
+}
+
+.room-box i {
+    font-size: .4em;
+    padding: 0 3px;
+    color: #e3e3e3;
+    position: relative;
+    bottom: 3px;
+}
+
+.room-price {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #3436BF;
+}
+.room-price::before {
+    content: "$ ";
+}
+
+.room-price::after {
+    content: " / Night";
+    font-size: .8em;
+    color: #a4a4a4;
+}

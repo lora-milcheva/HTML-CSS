@@ -1,0 +1,72 @@
+body {
+    background-color: #333333;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    padding: 0 15%;
+    font-size: 16px;
+}
+
+main {
+    background: url("images/food-image-bg.png") no-repeat center center;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 15%;
+}
+
+.recipies-info {
+    float: right;
+    margin-right: 60%;
+    position: relative;
+    top: -50px;
+}
+
+.recipies-info > p {
+    display: inline-block;
+    text-align: right;
+}
+
+.recipies-info span {
+    color: #b5c640;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-left: 40%;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: 60px;
+}
+
+.prep-steps {
+    margin-left: 36%;
+    position: relative;
+    top: -20px;
+    padding-right: 30px;
+}
+
+button {
+    float: right;
+    margin-right: 62%;
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
+}
+
+button:hover {
+    background-color: #b5c640;
+    border: 2px solid #b5c640;
+    cursor: pointer;
+}
+
+li.step {
+    margin-bottom: 20px;
+    list-style-type: none;
+}

@@ -1,0 +1,99 @@
+body {
+    background-color: #24437C;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.nav-brand {
+    float: left;
+    max-width: 180px;
+}
+
+.nav-primary {
+    float: right;
+    margin-top: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+.nav-item:hover {
+    background-color: #3DC1EF;
+}
+
+.nav-item > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item::first-letter {
+    text-transform: uppercase;
+}
+
+.header-title {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+.header-subtitle {
+    text-align: center;
+    color: #4281A4;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+#button-container {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.cta-btn {
+    background-color: #3DC1EF;
+}
+
+.header-btn {
+    border-radius: 8px;
+    padding: 10px 18px;
+    text-transform: capitalize;
+}
+
+.header-services {
+    padding: 0 10%;
+}
+
+.service {
+    display: inline-block;
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.service:hover {
+    background-color: #3DC1EF;
+}
+
+.service-title {
+    padding: 3% 6%;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.service-intro {
+    padding: 2%;
+}
+
+.service-link {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+}

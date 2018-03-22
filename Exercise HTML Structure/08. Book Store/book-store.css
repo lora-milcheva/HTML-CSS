@@ -1,0 +1,11 @@
+table {
+    color: rgb(51, 51, 51);
+    border-spacing: 0;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, tr, td, th {
+    border: 1px solid #c6c7cc;
+    padding: 10px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Free Account</title>
+    <link rel="stylesheet" href="free-account.css">
+</head>
+<body>
+<main>
+    <h1>Login or Create a Free Account!</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+    </p>
+    <hr/>
+    <div id="new-account-form">
+        <h2>New Account:</h2>
+        <form>
+            <div class="form-group">
+                <label for="register-username" hidden>Username</label>
+                <input type="text" id="register-username" name="register-username" class="form-control"
+                       placeholder="Username"/>
+                <span class="valid"></span>
+            </div>
+            <div class="form-group">
+                <label for="register-email" hidden>Email</label>
+                <input type="text" id="register-email" name="register-email" class="form-control" placeholder="E-mail"/>
+                <span class="valid"></span>
+            </div>
+            <div class="form-group">
+                <label for="register-password" hidden>Password</label>
+                <input type="text" id="register-password" name="register-password" class="form-control"
+                       placeholder="Password"/>
+                <span class="not-valid"></span>
+            </div>
+            <div class="form-group">
+                <label for="register-repeat-password" hidden>Password</label>
+                <input type="text" id="register-repeat-password" name="register-repeat-password" class="form-control"
+                       placeholder="Repeat Password"/>
+                <span class="not-valid"></span>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="newsletter" name="newsletter"/>
+                <label for="newsletter" class="checkbox-text">Please inform me of upcoming freebies, promotions and
+                    news
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
+    </div>
+    <div id="login-form">
+        <h2>Login:</h2>
+        <form>
+            <div class="form-group">
+                <label for="login-username" hidden>Username</label>
+                <input type="text" id="login-username" name="login-username" class="form-control"
+                       placeholder="Username"/>
+                <span class="valid"></span>
+            </div>
+            <div class="form-group">
+                <label for="login-password" hidden>Email</label>
+                <input type="password" id="login-password" name="login-password" class="form-control"
+                       placeholder="Password"/>
+                <span class="not-valid"></span>
+            </div>
+            <a href="#" class="accent-link">I Forgot my Password!</a>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+
+    </div>
+</main>
+
+</body>
+</html>

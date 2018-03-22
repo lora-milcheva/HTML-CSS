@@ -1,0 +1,38 @@
+@media screen and (max-width: 960px) {
+    body #wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body #wrapper > header nav ul li {
+        flex-grow: 1;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    body #wrapper > header nav ul {
+        flex-direction: column;
+    }
+
+    body #wrapper > header nav ul li {
+        width: 100%;
+    }
+
+    body #wrapper section {
+        flex-grow: 1;
+    }
+
+    body #wrapper > aside {
+        width: 100%;
+        flex-flow: row;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body #wrapper > aside {
+        flex-flow: column;
+    }
+}

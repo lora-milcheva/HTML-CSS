@@ -1,0 +1,44 @@
+@media screen and (max-width: 740px) {
+    header {
+        text-align: center;
+    }
+
+    #photo, #info  {
+        float: none;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #skills-right, #skills-left {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    p {
+        padding-left: 0;
+    }
+
+    ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
+    ul li {
+        padding-left: 20px;
+        vertical-align: middle;
+        background: url('images/bullet.png') 0 5px no-repeat;
+        margin-bottom: 3px;
+        line-height: 2em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    /*TODO*/
+}

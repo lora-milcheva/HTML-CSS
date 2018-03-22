@@ -1,0 +1,108 @@
+
+
+@media screen and (max-width: 1200px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body #wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5% 5% 5%;
+    }
+
+
+    header, main, footer {
+        width: 100%;
+    }
+
+    header {
+        background-size: cover;
+    }
+
+    header > nav > ul {
+        display: flex;
+    }
+
+    header > nav > ul > li {
+        flex-grow: 1;
+    }
+
+    main {
+        margin: 40px 0 0 0;
+        padding: 5%;
+    }
+
+    main section {
+        width: 100%;
+        margin: 0;
+    }
+
+    main aside {
+        margin: 0;
+        width: 100%;
+    }
+
+    main aside article {
+        margin-right: 0;
+    }
+
+    footer p {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    header {
+        border-bottom: 0;
+        background-size: 100% 60%;
+    }
+
+    header > nav {
+        height: auto;
+    }
+
+    header > nav > ul {
+        flex-direction: column;
+    }
+
+    header > nav > ul > li {
+        width: inherit;
+    }
+
+    main > section, main > section > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    main section > div > div {
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+        background-color: #bacd8b;
+        height: 170px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    main > aside > article > h1 {
+        font-size: 2rem;
+    }
+    main > aside > article > h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}

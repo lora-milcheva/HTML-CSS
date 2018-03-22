@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+}
+
+section {
+    padding: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+/* ----- Header ----- */
+header {
+    height: 735px;
+    padding-top: 30px;
+    background: url("images/Layer-759_02.jpg") no-repeat center;
+    text-align: center;
+    color: #fff;
+}
+
+header nav {
+    display: inline-block;
+    margin: auto;
+    background-color: rgba(199, 157, 99, .75);
+}
+
+header nav li {
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+header nav li:hover {
+    background-color: #ba925e;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+header nav li a {
+    color: #fff;
+}
+
+header h1 {
+    margin: 100px 0 50px 0;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+header p {
+    margin: 15px 33%;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #080820;
+    color: #fff;
+}
+
+header .fa {
+    color: #ba925e;
+    margin-left: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #ba925e;
+    color: #080820;
+    transition: all .2s;
+}
+
+.btn-primary:hover .fa {
+    color: #080820;
+    transition: all .2s;
+}
+
+/* ----- Consulting Services ----- */
+.consulting-services {
+    text-align: center;
+}
+
+.consulting-services article {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    margin: 20px;
+    padding-left: 70px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.consulting-services article:hover {
+    cursor: pointer;
+}
+
+.consulting-services article:hover .icons {
+    background-color: #ba925e;
+    transition: all .3s;
+}
+
+.consulting-services .icons {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #080820;
+    font-size: 2em;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* ----- Banner ----- */
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("images/steel-bg.jpg") center center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.banner h5 {
+    font-size: 20px;
+}
+
+.banner .accent-text {
+    display: block;
+    color: #ba925e;
+}
+
+/* ----- Why Us ----- */
+.why-us {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/background-choose-us.jpg') no-repeat center;
+    text-align: center;
+    color: #fff;
+}
+
+.why-us .articles {
+    display: flex;
+    justify-content: center;
+}
+
+.why-us article {
+    width: 25%;
+    margin: 15px;
+    padding: 25px;
+    border: 2px solid #ba925e;
+}
+
+.why-us article:hover {
+    background-color: #fff;
+    color: #080820;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.why-us p {
+    text-align: left;
+}
+
+/* ----- Feedback ----- */
+.feedback {
+    position: relative;
+    background: url("images/consulting-woman.jpg") center;
+    height: 600px;
+}
+
+.feedback .testimonial {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    width: 30%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.feedback .testimonial > p::before {
+    margin-left: -10px;
+    content: open-quote;
+    color: #ba925e;
+    font-size: 26px;
+}
+
+.feedback .testimonial > p::after {
+    content: close-quote;
+    color: #ba925e;
+    font-size: 26px;
+}
+
+.feedback .client {
+    position: relative;
+    margin-top: 20px;
+    padding: 35px 25px 100px 25px;
+    background-color: #080820;
+    color: #fff;
+}
+
+.feedback .client h5 {
+    font-size: 18px;
+}
+
+.feedback .client p {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    opacity: .2;
+    font-size: 12px;
+}
+
+/* ----- Partners ----- */
+.partners {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.partners .partner-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* ----- Footer ----- */
+footer {
+    background-color: #080820;
+    color: #fff;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+footer section {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 100px;
+    width: 25%;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 148px;
+}
+
+footer li {
+    padding: 5px 10px;
+}
+
+footer .contacts i {
+    margin-right: 5px;
+}
+
+footer .footer-menu li a {
+    color: #ba925e;
+}
+
+.social i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.social i:hover {
+    color: #ba925e;
+    transition: all .3s;
+}
+
+footer .instagram-widget {
+    float: right;
+    width: 300px;
+    /*padding-bottom: 10px;*/
+    padding: 30px 0 0 0;
+    margin-right: 60px;
+}
+
+.instagram-image {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: #080820;
+}
+
+.instagram-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.instagram-image:hover img {
+    opacity: .2;
+    transition: all .3s;
+}

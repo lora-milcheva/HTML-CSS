@@ -1,0 +1,133 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+}
+
+.register-container {
+    width: 45%;
+    min-width: 600px;
+    margin: 150px auto;
+    display: flex;
+    border-radius: 18px;
+    align-items: stretch;
+}
+
+/* ----- Banner ----- */
+.banner {
+    flex-basis: 45%;
+    background: linear-gradient(to bottom, rgba(94, 121, 255, .3) 0%, rgba(239, 1, 124, .6)),
+    url('img/peak.jpg') no-repeat center;
+    background-size: cover;
+    /*height: 400px;*/
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%
+}
+
+.banner .headline {
+    font-size: 2em;
+}
+
+.banner .terms {
+    position: relative;
+    top: 60%;
+}
+
+.banner .terms-of-service {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.banner i {
+    color: #D3D3D3;
+    font-size: 1.8em;
+}
+
+/* ----- Form ----- */
+.register-form-container {
+    position: relative;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: 3px solid #892064;
+    flex-grow: 1;
+    padding: 60px 75px 40px 75px;
+    flex-basis: 50%;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+.form-group label {
+    text-transform: uppercase;
+    color: #cccccc;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    margin-top: 2px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+.form-control:focus {
+    padding: 10px;
+    border-bottom: 1px solid #892064;
+    transition: .2s;
+}
+
+.buttons-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn {
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    padding: 8px 15px;
+}
+
+.btn-primary {
+    background-color: #892064;
+    color: #fff;
+    border-radius: 20px;
+    margin-right: 6px;
+}
+
+.btn-link {
+    padding: 0;
+    text-decoration: none;
+    color: #892064;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #892064;
+    font-size: 2em;
+}

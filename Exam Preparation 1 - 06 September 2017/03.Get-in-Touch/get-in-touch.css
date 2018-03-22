@@ -1,0 +1,100 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #636363;
+    width: 90%;
+    margin: 100px auto;
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.get-in-touch {
+    width: 75%;
+    float: left;
+    padding: 20px;
+}
+
+.info {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+
+/* -------- Form -------- */
+.get-in-touch header h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.get-in-touch header p {
+    margin-bottom: 20px;
+}
+
+.get-in-touch form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-in-touch .form-group {
+    flex-basis: 46%;
+    margin: 20px 20px 0 0;
+}
+
+.get-in-touch .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.get-in-touch .textarea {
+    flex-basis: 95%;
+}
+
+.get-in-touch .form-group button {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #75E522;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.19);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.19);
+}
+
+/* -------- Aside Info -------- */
+aside .info ul {
+    list-style-type: none;
+}
+
+aside .info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c1c3c5;
+}
+
+aside .info li {
+    margin-bottom: 45px;
+}
+
+aside .info i {
+    color: #00B1A8;
+    position: relative;
+    top: 18px;
+}
+
+aside .info p {
+    margin-left: 25px;
+}

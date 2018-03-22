@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color: #666;
+    background-color: #EBEBEB;
+}
+
+main {
+    padding: 20px 50px;
+}
+
+section {
+    border-bottom: 1px dashed #999;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #32A2E4;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+label {
+    margin-bottom: 7px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+#search-btn {
+    background: none;
+    border: none;
+    color: #3BBC96;
+}
+
+#search-btn:hover {
+    outline: none;
+    cursor: pointer;
+
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.header {
+    background-color: #F1F1F1;
+}
+
+
+.search {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding-left: 25px;
+}
+
+.info-text {
+    display: inline-block;
+    width: 58%;
+}
+
+.search-form .fa-search {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    font-size: 1.5em;
+}
+
+
+.book-form {
+    position: relative;
+}
+
+.personal-details {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.reservation-details {
+    display: inline-block;
+    width: 78%;
+    padding-left: 200px;
+}
+
+.form-control {
+    display: inline-block
+}
+
+.select-room {
+    width: 69%;
+}
+
+.number-of-rooms {
+    width: 30%;
+}
+
+.check-in, .check-out {
+    width: 49.5%;
+}
+
+.submit-form-btn {
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    background-color: #32A2E4;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.submit-form-btn:hover {
+    background-color: #3BBC96;
+    transition: .2s;
+    cursor: pointer;
+}

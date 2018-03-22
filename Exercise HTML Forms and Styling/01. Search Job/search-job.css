@@ -1,0 +1,115 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 80px 50px;
+}
+
+ul, div, nav, label {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #384452;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+nav li:hover {
+    background-color: #3BBC96;
+    transition: .2s;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8BAEC2;
+}
+
+nav li:hover a {
+    color: #fff;
+    transition: .2s;
+}
+
+nav li:first-child a::before {
+    content: "\f002";
+    font-family: FontAwesome, sans-serif;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+nav li:nth-child(2) a::before {
+    content: "\f02c";
+    font-family: FontAwesome, sans-serif;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+nav li:nth-child(3) a::before {
+    content: "\f041";
+    font-family: FontAwesome, sans-serif;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+nav li:nth-child(4) a::before {
+    content: '\f007';
+    font-family: FontAwesome, sans-serif;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+
+main {
+    background-color: #eee;
+    padding: 50px;
+}
+
+.form-group {
+    display: inline-block;
+    width: calc(25% - 36px);
+    margin: 20px 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 900;
+    color: #4d6484;
+}
+
+.form-group input {
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.form-group input::placeholder {
+    color: #ccc;
+}
+
+.form-group button {
+    width: 100%;
+    background-color: #384452;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #fff;
+    border: none;
+}
+
+.form-group button:hover {
+    cursor: pointer;
+    background-color: #3BBC96;
+    transition: .2s;
+}

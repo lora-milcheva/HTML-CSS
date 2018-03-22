@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #602D75;
+    font-family: "Lemon-Regular", Arial, sans-serif;
+    font-size: 15px;
+}
+
+section {
+    width: 900px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #FFAE32;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 15px;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 5px;
+}
+
+article {
+    display: inline-block;
+    width: 220px;
+    margin: 25px;
+    padding: 15px;
+    background-color: #5F2056;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #fff;
+}
+article img {
+    width: 100%;
+    margin: 10px 0;
+    border: 5px solid #826B73;
+    border-radius: 50%;
+}
+
+article img:hover {
+    border-color: #FA4F00;
+    cursor: pointer;
+}
+
+p.price {
+    font-size: 22px;
+}
+
+p.guarantee {
+    color: #FFAE32;
+}
+
+p.details {
+    text-align: left;
+}
+
+button {
+    width: 100%;
+    margin: 10px 0 5px 0;
+    padding: 5px;
+    background-color: #fff;
+    border: 3px outset #DDDDDD;
+    border-radius: 20px;
+    color: #944AFF;
+}
+
+button:hover {
+    color: #000;
+}

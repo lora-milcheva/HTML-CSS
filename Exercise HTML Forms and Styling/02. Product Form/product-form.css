@@ -1,0 +1,91 @@
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+h1 {
+    
+}
+
+.price {
+    color: #565656;
+    font-weight: 900;
+}
+.product {
+    height: 600px;
+    width: 65%;
+    margin: 10% auto;
+    border-radius: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 26px 0px rgba(66, 201, 202, 0.19);
+    -moz-box-shadow: 10px 10px 26px 0px rgba(66, 201, 202, 0.19);
+    box-shadow: 10px 10px 26px 0px rgba(66, 201, 202, 0.19);
+}
+
+.product-info {
+    padding: 20px;
+    float: left;
+}
+
+.product-image {
+    float: left;
+    width: 50%;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+
+    line-height: 600px;
+}
+
+.product-image img {
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+.form-group {
+    padding: 25px 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-control:not(button) {
+    padding: 8px 10px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid #42C9CA;
+}
+
+.form-control::placeholder {
+    color: #42C9CA;
+}
+
+button.form-control {
+    padding: 10px 30px;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid #42C9CA;
+    border-radius: 25px;
+    color: #42c9ca;
+    text-transform: uppercase;
+}
+
+button.form-control:hover {
+    cursor: pointer;
+    background-color: #42C9CA;
+    border: 3px solid #42C9CA;
+    color: #fff;
+    transition: .2s;
+}
+
+select.form-control  {
+    background-color: #42c9ca;
+    color: #fff;
+}
